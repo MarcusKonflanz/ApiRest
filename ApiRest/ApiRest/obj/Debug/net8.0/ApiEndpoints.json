@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "ApiRest.Controllers.CalculatorController",
+    "Method": "GetAverage",
+    "RelativePath": "Calculator/average/{firstNumber}/{secondNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "secondNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiRest.Controllers.CalculatorController",
+    "Method": "GetDecrease",
+    "RelativePath": "Calculator/decrease/{firstNumber}/{secondNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "secondNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiRest.Controllers.CalculatorController",
+    "Method": "GetDivide",
+    "RelativePath": "Calculator/divide/{firstNumber}/{secondNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "secondNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiRest.Controllers.CalculatorController",
+    "Method": "Get",
+    "RelativePath": "Calculator/sum/{firstNumber}/{secondNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "secondNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
